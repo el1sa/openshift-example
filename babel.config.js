@@ -7,7 +7,7 @@ module.exports = function (api) {
       [
         "inline-dotenv",
         {
-          path: "path/to/.env", // See motdotla/dotenv for more options
+          path: "./.env.test", // heroku muuttujat
         },
       ],
     ],
